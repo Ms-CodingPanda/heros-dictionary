@@ -1,4 +1,8 @@
 .Results {
   background-color: #000;
-  color: white;
+  color: rgb(238, 235, 235);
+}
+
+.Results::first-letter {
+  text-transform: capitalize;
 }
