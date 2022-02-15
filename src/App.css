@@ -9,13 +9,13 @@ header {
 }
 
 input[type="checkbox"] {
-  content: url("./logo.png");
+  content: url("./Images/logo.png");
   display: block;
   margin: 0 auto;
   max-height: 250px;
 }
 input[type="checkbox"]:checked {
-  content: url("./logo2.png");
+  content: url("./Images/logo2.png");
 }
 .App-logo {
   -webkit-appearance: none;
