@@ -4,8 +4,8 @@
 }
 
 .Synonyms li {
-  background-color: #b1e6ff;
-  border: 1px solid #047abb;
+  background-color: white;
+  border: 2px solid rgb(110, 26, 26);
   color: black;
   display: inline-block;
   font-size: 14px;

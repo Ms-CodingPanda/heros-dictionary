@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
-  background-color: black;
+  background-color: rgb(233, 233, 233);
   font-family: "Press Start 2P", cursive;
 }
 
@@ -12,9 +12,19 @@ header {
 }
 
 .App-footer {
-  color: #ffff;
+  color: black;
+  font-size: small;
   text-align: center;
   margin: 30px 0;
+}
+
+.App-footer a {
+  color: rgb(177, 0, 0);
+  text-decoration: none;
+}
+
+.App-footer a:hover {
+  color: orange;
 }
 
 input[type="checkbox"] {

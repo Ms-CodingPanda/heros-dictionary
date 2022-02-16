@@ -3,6 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import loading from "./Images/link-loading.gif";
 
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
@@ -59,6 +60,6 @@ export default function Dictionary(props) {
     );
   } else {
     load();
-    return "Loading";
+    return { loading };
   }
 }
