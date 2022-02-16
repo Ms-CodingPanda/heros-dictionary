@@ -20,7 +20,13 @@ function App() {
           Vanessa Fadase
         </a>{" "}
         Open-Sourced on{" "}
-        <a href="https://github.com/Ms-CodingPanda/heros-dictionary">GitHub</a>
+        <a
+          href="https://github.com/Ms-CodingPanda/heros-dictionary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
       </footer>
     </div>
   );

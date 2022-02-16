@@ -7,12 +7,28 @@
   padding: 30px;
 }
 
-.Dictionary h1 {
+.container {
+  display: inline-block;
+}
+
+.Typed-out h1 {
+  animation: typing 4s steps(40, end) forwards;
   color: black;
   font-size: 26px;
   font-weight: bolder;
-  margin-top: 10px;
+  margin: 10px auto;
+  overflow: hidden;
   text-align: center;
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .Dictionary input {

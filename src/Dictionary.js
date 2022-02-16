@@ -40,7 +40,9 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1>Hello Hero!</h1>
+        <div className="Typed-out">
+          <h1>Hello Hero!</h1>
+        </div>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
