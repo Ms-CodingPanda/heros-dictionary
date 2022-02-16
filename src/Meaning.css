@@ -1,0 +1,15 @@
+.Meaning {
+  color: #b1e6ff;
+}
+
+.Meaning h3 {
+  color: rgb(20, 20, 20);
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.Meaning .example {
+  color: rgb(20, 20, 20);
+  font-style: italic;
+  margin-top: 10px;
+}

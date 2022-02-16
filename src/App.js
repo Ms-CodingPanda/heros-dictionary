@@ -8,7 +8,7 @@ function App() {
         <input className="App-logo" type="checkbox" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="Adventure" />
       </main>
       <footer className="App-footer">Coded by Vanessa Fadase</footer>
     </div>

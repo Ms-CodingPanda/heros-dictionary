@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: black;
+  font-family: "Press Start 2P", cursive;
+}
+
 header {
-  margin: 30px 67px;
+  background-image: url(./Images/Zelda-cave.png);
+  background-size: cover;
+  margin: 0;
 }
 
 .App-footer {

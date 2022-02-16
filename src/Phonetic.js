@@ -1,5 +1,6 @@
 import React from "react";
 import Navi from "./Images/navi.png";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   return (
@@ -14,7 +15,9 @@ export default function Phonetic(props) {
           height="30"
         />{" "}
       </a>{" "}
-      <span className="pronounciation">{props.phonetic.text}</span>
+      <span className="pronounciation">
+        <em>{props.phonetic.text}</em>
+      </span>
     </div>
   );
 }
