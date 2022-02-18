@@ -11,7 +11,11 @@
   display: inline-block;
 }
 
-.Typed-out h1 {
+.link {
+  filter: drop-shadow(0.02px 25px 0.01px rgba(87, 87, 87, 0.205));
+}
+
+.greeting {
   animation: typing 4s steps(40, end) forwards;
   color: black;
   font-size: 26px;
@@ -36,7 +40,7 @@
   border: none;
   border-bottom: 2px solid black;
   color: rgb(20, 20, 20);
-  font-size: 17px;
+  font-size: 20px;
   margin: 20px 0 0;
   padding: 2px 12px 2px 0;
   width: 70%;
@@ -44,7 +48,7 @@
 
 .Dictionary .hint {
   color: rgb(110, 26, 26);
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 5px;
   opacity: 0.7;
   text-align: center;
@@ -61,12 +65,12 @@ form {
 }
 
 .Dictionary .form-control:focus {
-  color: #fff;
+  color: white;
   background-color: transparent !important;
   border-color: transparent !important;
 }
 
 .Dictionary :focus-visible {
   outline: none;
-  background-color: white;
+  background-color: #f5e2be;
 }
