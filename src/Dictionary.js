@@ -53,7 +53,16 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="Typed-out">
-          <h1>Hello Hero!</h1>
+          <h1>
+            Hello Hero!
+            <img
+              src={loading}
+              alt="loading"
+              className="link"
+              width="30"
+              height="30"
+            />
+          </h1>
           <div className="container"></div>
           <form onSubmit={handleSubmit}>
             <input
@@ -75,6 +84,6 @@ export default function Dictionary(props) {
     );
   } else {
     load();
-    return { loading };
+    return <img src={loading} alt="loading" />;
   }
 }
